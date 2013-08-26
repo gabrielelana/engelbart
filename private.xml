@@ -22,7 +22,7 @@
 	    </item>
 	    <item>
 	      <name>ESCAPE</name>
-	      <appendix>Simultaneous home keys presses to ESCAPE</appendix>
+	      <appendix>Simultaneous keys presses to ESCAPE</appendix>
 	      <appendix>(E+F to ESCAPE)</appendix>
 	      <appendix>(J+I to ESCAPE)</appendix>
 	      <identifier>remap.home_row_to_ESCAPE</identifier>
@@ -46,6 +46,15 @@
 	      <identifier>remap.home_row_to_meta_2</identifier>
 	      <autogen>__SimultaneousKeyPresses__ KeyCode::A, KeyCode::F, KeyCode::KEYPAD_3</autogen>
 		  <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::SEMICOLON, KeyCode::KEYPAD_4</autogen>
+	    </item>
+	    <item>
+	      <name>LEADER</name>
+	      <appendix>Simultaneous keys presses to Vim LEADER aka '\'</appendix>
+	      <appendix>(E+R to LEADER)</appendix>
+	      <appendix>(U+I to LEADER)</appendix>
+	      <identifier>remap.home_row_to_leader</identifier>
+	      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::BACKSLASH</autogen>
+		  <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::BACKSLASH</autogen>
 	    </item>
 	</item>
 </root>
