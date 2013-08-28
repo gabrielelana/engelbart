@@ -56,5 +56,23 @@
 	      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::BACKSLASH</autogen>
 		  <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::BACKSLASH</autogen>
 	    </item>
+	    <item>
+	      <name>CONTROL+OPTION</name>
+	      <appendix>Simultaneous keys presses to CONTROL+OPTION</appendix>
+	      <appendix>(W+F to CONTROL_L+OPTION_L)</appendix>
+	      <appendix>(J+O to CONTROL_R+OPTION_R)</appendix>
+	      <identifier>remap.home_row_to_control_plus_option</identifier>
+	      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::F, KeyCode::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+	      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::O, KeyCode::CONTROL_R, ModifierFlag::OPTION_R</autogen>
+	    </item>
+	    <item>
+	      <name>CONTROL+SHIFT</name>
+	      <appendix>Simultaneous keys presses to CONTROL+SHIFT</appendix>
+	      <appendix>(Q+F to CONTROL_L+SHIFT_L)</appendix>
+	      <appendix>(J+P to CONTROL_R+SHIFT_R)</appendix>
+	      <identifier>remap.home_row_to_control_plus_shift</identifier>
+	      <autogen>__SimultaneousKeyPresses__ KeyCode::Q, KeyCode::F, KeyCode::CONTROL_L, ModifierFlag::SHIFT_L</autogen>
+	      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::P, KeyCode::CONTROL_R, ModifierFlag::SHIFT_R</autogen>
+	    </item>
 	</item>
 </root>
