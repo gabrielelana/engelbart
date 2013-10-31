@@ -30,20 +30,20 @@
 	      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::I, KeyCode::ESCAPE</autogen>
 	    </item>
 	    <item>
-	      <name>META-1</name>
-	      <appendix>Simultaneous home keys presses to META-1</appendix>
-	      <appendix>(S+F to META-1)</appendix>
-	      <appendix>(J+L to META-1)</appendix>
-	      <identifier>remap.home_row_to_meta_1</identifier>
+	      <name>META</name>
+	      <appendix>Simultaneous home keys presses to META. META doesn't exists as KeyCode so we will map those combo to KEYPAD_1 and KEYPAD_2</appendix>
+	      <appendix>(S+F to KEYPAD_1 and then to META_L)</appendix>
+	      <appendix>(J+L to KEYPAD_2 and then to META_R)</appendix>
+	      <identifier>remap.home_row_to_meta</identifier>
 	      <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::F, KeyCode::KEYPAD_1</autogen>
 		  <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::L, KeyCode::KEYPAD_2</autogen>
 	    </item>
 	    <item>
-	      <name>META-2</name>
-	      <appendix>Simultaneous home keys presses to META-2</appendix>
-	      <appendix>(A+F to META-2)</appendix>
-	      <appendix>(J+; to META-2)</appendix>
-	      <identifier>remap.home_row_to_meta_2</identifier>
+	      <name>SUPER</name>
+	      <appendix>Simultaneous home keys presses to SUPER. SUPER doesn't exists as KeyCode so we will map those combo to KEYPAYD_3 and KEYPAD_4</appendix>
+	      <appendix>(A+F to KEYPAD_3 and then to SUPER_L)</appendix>
+	      <appendix>(J+; to KEYPAD_4 and then to SUPER_R)</appendix>
+	      <identifier>remap.home_row_to_super</identifier>
 	      <autogen>__SimultaneousKeyPresses__ KeyCode::A, KeyCode::F, KeyCode::KEYPAD_3</autogen>
 		  <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::SEMICOLON, KeyCode::KEYPAD_4</autogen>
 	    </item>

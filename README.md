@@ -22,15 +22,21 @@ When you simultaneously press two keys they will be mapped to another (convinien
 * K+L to OPTION\_R aka ALT\_R
 * E+F to ESCAPE
 * J+I to ESCAPE
+* E+R to BACKSKASH aka vim's LEADER
+* U+I to BACKSKASH aka vim's LEADER
+* W+F to CONTROL\_L + OPTION\_L
+* J+O to CONTROL\_R + OPTION\_R
+* Q+F to CONTROL\_L + SHIFT\_L
+* J+P to CONTROL\_R + SHIFT\_R
 
-Now, this is already something, but I wanted to go beyond, towards the mythical [Space Cated Keyboard](http://en.wikipedia.org/wiki/Space-cadet_keyboard), I wanted to have all those modifier keys... Unfortunately KeyRemap4MacBook doesn't support those key codes... Fortunately inside a Linux VM I can (with xmodmap) remap some strange/unused keys into those key codes... There we go
+Now, this is already something, but I wanted to go beyond, towards the mythical [Space Cadet Keyboard](http://en.wikipedia.org/wiki/Space-cadet_keyboard), I wanted to have all those modifier keys... Unfortunately KeyRemap4MacBook doesn't support those key codes... Fortunately inside a Linux VM I can (with xmodmap) remap some strange/unused keys into those key codes... There we go
 
-* S+F to KEYPAD\_1 and then with xmodmap to META\_L
-* J+L to KEYPAD\_2 and then with xmodmap to META\_R
-* A+F to KEYPAD\_3 and then with xmodmap to SUPER\_L
-* J+; to KEYPAD\_4 and then with xmodmap to SUPER\_R
+* S+F to KEYPAD\_1 and then via xmodmap to META\_L
+* J+L to KEYPAD\_2 and then via xmodmap to META\_R
+* A+F to KEYPAD\_3 and then via xmodmap to SUPER\_L
+* J+; to KEYPAD\_4 and then via xmodmap to SUPER\_R
 
-I considered to add also HYPER\_L and HYPER\_R but for now I'm happy like that
+In the future I will consider to add also HYPER\_L and HYPER\_R but for now I'm happy like that
 
 
 # How to use it
@@ -40,11 +46,11 @@ I considered to add also HYPER\_L and HYPER\_R but for now I'm happy like that
 * Replace the default private.xml file with the one you find in this repository
 * Go to "Change Key"
 * Hit "Reload XML"
-* A section called "Engelbart" should be appeared
+* A section called "Engelbart" should appear
 * Enable all the mappings inside of it
 * Enjoy :-)
 
 
 # Last tip
 
-With [PCKeyboardHack](https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en) I've remapped my CapsLock to Fn key, so that I can have yet another (sort of) modifier key in my home row! What I do with Fn? With KeyRemap4MacBook I've remapped Fn+{H,J,K,L} to... I let you guess what :-)
+With [PCKeyboardHack](https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en) I've remapped my CapsLock to Fn key, so that I can have yet another (sort of) modifier key in my home row! What I do with Fn? With KeyRemap4MacBook I've remapped Fn+{H,J,K,L} to... I'll let you guess what :-)
