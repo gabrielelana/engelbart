@@ -22,8 +22,8 @@ When you simultaneously press two keys they will be mapped to another (convinien
 * K+L to OPTION\_R aka ALT\_R
 * E+F to ESCAPE
 * J+I to ESCAPE
-* E+R to BACKSKASH aka vim's LEADER
-* U+I to BACKSKASH aka vim's LEADER
+* E+R to BACKSLASH aka vim's LEADER
+* U+I to BACKSLASH aka vim's LEADER
 * W+F to CONTROL\_L + OPTION\_L
 * J+O to CONTROL\_R + OPTION\_R
 * Q+F to CONTROL\_L + SHIFT\_L
