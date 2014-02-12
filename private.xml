@@ -1,78 +1,78 @@
 <?xml version="1.0"?>
 <root>
-	<item>
-	    <name>Engelbart</name>
-	    <item>
-	      <name>CONTROL</name>
-	      <appendix>Simultaneous home keys presses to CONTROL</appendix>
-	      <appendix>(D+F to CONTROL_L)</appendix>
-	      <appendix>(J+K to CONTROL_R)</appendix>
-	      <identifier>remap.home_row_to_control</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::F, KeyCode::CONTROL_L</autogen>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::K, KeyCode::CONTROL_R</autogen>
-	    </item>
-	    <item>
-	      <name>OPTION</name>
-	      <appendix>Simultaneous home keys presses to OPTION</appendix>
-	      <appendix>(S+D to OPTION_L)</appendix>
-	      <appendix>(K+L to OPTION_R)</appendix>
-	      <identifier>remap.home_row_to_option</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::D, KeyCode::OPTION_L</autogen>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::K, KeyCode::L, KeyCode::OPTION_R</autogen>
-	    </item>
-	    <item>
-	      <name>ESCAPE</name>
-	      <appendix>Simultaneous keys presses to ESCAPE</appendix>
-	      <appendix>(E+F to ESCAPE)</appendix>
-	      <appendix>(J+I to ESCAPE)</appendix>
-	      <identifier>remap.home_row_to_ESCAPE</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::F, KeyCode::ESCAPE</autogen>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::I, KeyCode::ESCAPE</autogen>
-	    </item>
-	    <item>
-	      <name>META</name>
-	      <appendix>Simultaneous home keys presses to META. META doesn't exists as KeyCode so we will map those combo to KEYPAD_1 and KEYPAD_2</appendix>
-	      <appendix>(S+F to KEYPAD_1 and then to META_L)</appendix>
-	      <appendix>(J+L to KEYPAD_2 and then to META_R)</appendix>
-	      <identifier>remap.home_row_to_meta</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::F, KeyCode::KEYPAD_1</autogen>
-		  <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::L, KeyCode::KEYPAD_2</autogen>
-	    </item>
-	    <item>
-	      <name>SUPER</name>
-	      <appendix>Simultaneous home keys presses to SUPER. SUPER doesn't exists as KeyCode so we will map those combo to KEYPAYD_3 and KEYPAD_4</appendix>
-	      <appendix>(A+F to KEYPAD_3 and then to SUPER_L)</appendix>
-	      <appendix>(J+; to KEYPAD_4 and then to SUPER_R)</appendix>
-	      <identifier>remap.home_row_to_super</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::A, KeyCode::F, KeyCode::KEYPAD_3</autogen>
-		  <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::SEMICOLON, KeyCode::KEYPAD_4</autogen>
-	    </item>
-	    <item>
-	      <name>LEADER</name>
-	      <appendix>Simultaneous keys presses to Vim LEADER aka '\'</appendix>
-	      <appendix>(E+R to LEADER)</appendix>
-	      <appendix>(U+I to LEADER)</appendix>
-	      <identifier>remap.home_row_to_leader</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::BACKSLASH</autogen>
-		  <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::BACKSLASH</autogen>
-	    </item>
-	    <item>
-	      <name>CONTROL+OPTION</name>
-	      <appendix>Simultaneous keys presses to CONTROL+OPTION</appendix>
-	      <appendix>(W+F to CONTROL_L+OPTION_L)</appendix>
-	      <appendix>(J+O to CONTROL_R+OPTION_R)</appendix>
-	      <identifier>remap.home_row_to_control_plus_option</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::F, KeyCode::CONTROL_L, ModifierFlag::OPTION_L</autogen>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::O, KeyCode::CONTROL_R, ModifierFlag::OPTION_R</autogen>
-	    </item>
-	    <item>
-	      <name>CONTROL+SHIFT</name>
-	      <appendix>Simultaneous keys presses to CONTROL+SHIFT</appendix>
-	      <appendix>(Q+F to CONTROL_L+SHIFT_L)</appendix>
-	      <appendix>(J+P to CONTROL_R+SHIFT_R)</appendix>
-	      <identifier>remap.home_row_to_control_plus_shift</identifier>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::Q, KeyCode::F, KeyCode::CONTROL_L, ModifierFlag::SHIFT_L</autogen>
-	      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::P, KeyCode::CONTROL_R, ModifierFlag::SHIFT_R</autogen>
-	    </item>
-	</item>
+  <item>
+      <name>Engelbart</name>
+      <item>
+        <name>CONTROL</name>
+        <appendix>Simultaneous home keys presses to CONTROL</appendix>
+        <appendix>(D+F to CONTROL_L)</appendix>
+        <appendix>(J+K to CONTROL_R)</appendix>
+        <identifier>remap.home_row_to_control</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::F, KeyCode::CONTROL_L</autogen>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::K, KeyCode::CONTROL_R</autogen>
+      </item>
+      <item>
+        <name>OPTION</name>
+        <appendix>Simultaneous home keys presses to OPTION</appendix>
+        <appendix>(S+D to OPTION_L)</appendix>
+        <appendix>(K+L to OPTION_R)</appendix>
+        <identifier>remap.home_row_to_option</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::D, KeyCode::OPTION_L</autogen>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::K, KeyCode::L, KeyCode::OPTION_R</autogen>
+      </item>
+      <item>
+        <name>ESCAPE</name>
+        <appendix>Simultaneous keys presses to ESCAPE</appendix>
+        <appendix>(E+F to ESCAPE)</appendix>
+        <appendix>(J+I to ESCAPE)</appendix>
+        <identifier>remap.home_row_to_ESCAPE</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::F, KeyCode::ESCAPE</autogen>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::I, KeyCode::ESCAPE</autogen>
+      </item>
+      <item>
+        <name>META</name>
+        <appendix>Simultaneous home keys presses to META. META doesn't exists as KeyCode so we will map those combo to KEYPAD_1 and KEYPAD_2</appendix>
+        <appendix>(S+F to KEYPAD_1 and then to META_L)</appendix>
+        <appendix>(J+L to KEYPAD_2 and then to META_R)</appendix>
+        <identifier>remap.home_row_to_meta</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::F, KeyCode::KEYPAD_1</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::L, KeyCode::KEYPAD_2</autogen>
+      </item>
+      <item>
+        <name>SUPER</name>
+        <appendix>Simultaneous home keys presses to SUPER. SUPER doesn't exists as KeyCode so we will map those combo to KEYPAYD_3 and KEYPAD_4</appendix>
+        <appendix>(A+F to KEYPAD_3 and then to SUPER_L)</appendix>
+        <appendix>(J+; to KEYPAD_4 and then to SUPER_R)</appendix>
+        <identifier>remap.home_row_to_super</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::A, KeyCode::F, KeyCode::KEYPAD_3</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::SEMICOLON, KeyCode::KEYPAD_4</autogen>
+      </item>
+      <item>
+        <name>LEADER</name>
+        <appendix>Simultaneous keys presses to Vim LEADER aka '\'</appendix>
+        <appendix>(E+R to LEADER)</appendix>
+        <appendix>(U+I to LEADER)</appendix>
+        <identifier>remap.home_row_to_leader</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::BACKSLASH</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::BACKSLASH</autogen>
+      </item>
+      <item>
+        <name>CONTROL+OPTION</name>
+        <appendix>Simultaneous keys presses to CONTROL+OPTION</appendix>
+        <appendix>(W+F to CONTROL_L+OPTION_L)</appendix>
+        <appendix>(J+O to CONTROL_R+OPTION_R)</appendix>
+        <identifier>remap.home_row_to_control_plus_option</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::F, KeyCode::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::O, KeyCode::CONTROL_R, ModifierFlag::OPTION_R</autogen>
+      </item>
+      <item>
+        <name>CONTROL+SHIFT</name>
+        <appendix>Simultaneous keys presses to CONTROL+SHIFT</appendix>
+        <appendix>(Q+F to CONTROL_L+SHIFT_L)</appendix>
+        <appendix>(J+P to CONTROL_R+SHIFT_R)</appendix>
+        <identifier>remap.home_row_to_control_plus_shift</identifier>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::Q, KeyCode::F, KeyCode::CONTROL_L, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::P, KeyCode::CONTROL_R, ModifierFlag::SHIFT_R</autogen>
+      </item>
+  </item>
 </root>
