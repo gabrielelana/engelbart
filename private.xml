@@ -33,7 +33,7 @@
     </item>
     <item>
       <name>SUPER</name>
-      <appendix>Simultaneous home keys presses to SUPER. SUPER doesn't exists as KeyCode so we will map those combo to KEYPAYD_3 and KEYPAD_4</appendix>
+      <appendix>Simultaneous home keys presses to SUPER. SUPER doesn't exists as KeyCode so we will map those combo to KEYPAD_3 and KEYPAD_4</appendix>
       <appendix>This is designed to work in an XOrg environment (maybe in a virtual machine) where you have xmodmap</appendix>
       <appendix>(A+F to KEYPAD_3 and then (with xmodmap) to SUPER_L)</appendix>
       <appendix>(J+; to KEYPAD_4 and then (with xmodmap) to SUPER_R)</appendix>
@@ -100,12 +100,12 @@
     <!-- BELOW ROW -->
     <item>
       <name>LEADER</name>
-      <appendix>Simultaneous keys presses to Vim LEADER aka '\'</appendix>
+      <appendix>Simultaneous keys presses to Vim LEADER aka 0x000A</appendix>
       <appendix>(E+R to LEADER)</appendix>
       <appendix>(U+I to LEADER)</appendix>
       <identifier>remap.home_row_to_leader</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::BACKSLASH</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::BACKSLASH</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::KEYPAYD_5</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::KEYPAYD_6</autogen>
     </item>
   </item>
 </root>
