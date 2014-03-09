@@ -41,16 +41,6 @@
       <autogen>__SimultaneousKeyPresses__ KeyCode::A, KeyCode::F, KeyCode::KEYPAD_3</autogen>
       <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::SEMICOLON, KeyCode::KEYPAD_4</autogen>
     </item>
-    <!-- ABOVE ROW -->
-    <item>
-      <name>LEADER</name>
-      <appendix>Simultaneous keys presses to Vim LEADER aka '\'</appendix>
-      <appendix>(E+R to LEADER)</appendix>
-      <appendix>(U+I to LEADER)</appendix>
-      <identifier>remap.home_row_to_leader</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::BACKSLASH</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::BACKSLASH</autogen>
-    </item>
     <!-- HOME ROW CROSS ABOVE ROW -->
     <item>
       <name>ESCAPE</name>
@@ -69,6 +59,53 @@
       <identifier>remap.home_row_to_delete</identifier>
       <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::F, KeyCode::DELETE</autogen>
       <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::O, KeyCode::DELETE</autogen>
+    </item>
+    <!-- ABOVE ROW -->
+    <item>
+      <name>CONTROL+OPTION</name>
+      <appendix>Simultaneous keys presses to CONTROL+OPTION</appendix>
+      <appendix>(E+R to CONTROL_L+OPTION_L)</appendix>
+      <appendix>(U+I to CONTROL_R+OPTION_R)</appendix>
+      <identifier>remap.home_row_to_control_plus_option</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::CONTROL_R, ModifierFlag::OPTION_R</autogen>
+    </item>
+    <item>
+      <name>CONTROL+SHIFT</name>
+      <appendix>Simultaneous keys presses to CONTROL+SHIFT</appendix>
+      <appendix>(W+R to CONTROL_L+SHIFT_L)</appendix>
+      <appendix>(U+O to CONTROL_R+SHIFT_R)</appendix>
+      <identifier>remap.home_row_to_control_plus_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::R, KeyCode::CONTROL_L, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::O, KeyCode::CONTROL_R, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>OPTION+SHIFT</name>
+      <appendix>Simultaneous keys presses to OPTION+SHIFT</appendix>
+      <appendix>(W+E to OPTION_L+SHIFT_L)</appendix>
+      <appendix>(I+O to OPTION_R+SHIFT_R)</appendix>
+      <identifier>remap.home_row_to_option_plus_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::E, KeyCode::OPTION_L, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::I, KeyCode::O, KeyCode::OPTION_R, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>CONTROL+OPTION+SHIFT</name>
+      <appendix>Simultaneous keys presses to CONTROL+OPTION+SHIFT</appendix>
+      <appendix>(Q+R to CONTROL_L+OPTION_L+SHIFT_L)</appendix>
+      <appendix>(U+P to CONTROL_R+OPTION_R+SHIFT_R)</appendix>
+      <identifier>remap.engelbart_control_plug_option_plus_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::Q, KeyCode::R, KeyCode::CONTROL_L, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::P, KeyCode::CONTROL_R, ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <!-- BELOW ROW -->
+    <item>
+      <name>LEADER</name>
+      <appendix>Simultaneous keys presses to Vim LEADER aka '\'</appendix>
+      <appendix>(E+R to LEADER)</appendix>
+      <appendix>(U+I to LEADER)</appendix>
+      <identifier>remap.home_row_to_leader</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::BACKSLASH</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::BACKSLASH</autogen>
     </item>
   </item>
 </root>
