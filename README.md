@@ -2,19 +2,19 @@
 
 This is a customized configuration for [KeyRemap4MacBook](https://pqrs.org/macosx/keyremap4macbook/) to make a keyboard home row to behave like Douglas Engelbart's [chord](http://en.wikipedia.org/wiki/Chorded_keyboard) device but only for "difficult to reach but very useful" keys
 
-Unfortunately this only work in OSX, but if you are like me who works in Linux virtual machines hosted by OSX then you can have the best of both worlds. 
+Unfortunately this only work in OSX, but if you are like me who works in Linux virtual machines hosted by OSX then you can have the best of both worlds.
 
 
 # Why?
 
-* My development environment is made of vim, zsh, tmux and i3 (tiled window manager), let's say that I *need* a lot of keybindings, avoiding clashes with _"only"_ two modifiers (CONTROL and ALT) is not easy
+* My development environment is made of Vim, Zsh, Tmux and i3 (tiled window manager), let's say that I *need* a lot of key bindings, avoiding clashes with _"only"_ two modifiers (CONTROL and ALT) is not easy
 * I'm not getting younger, twisting my hand and my wrist all day long to reach those modifier keys was causing me some pain
 * Being able to stay more in the home row is the ultimate keyboard efficiency goal
 
 
 # How it works?
 
-When you simultaneously press two keys they will be mapped to another (convinient) key. Al the mappings are simmetric (this resolves another issue that many keyboards have)
+When you simultaneously press two keys they will be mapped to another (convenient) key. Al the mappings are symmetric (this resolves another issue that many keyboards have)
 
 * D+F to CONTROL\_L
 * J+K to CONTROL\_R
@@ -22,8 +22,8 @@ When you simultaneously press two keys they will be mapped to another (convinien
 * K+L to OPTION\_R aka ALT\_R
 * E+F to ESCAPE
 * J+I to ESCAPE
-* E+R to BACKSLASH aka vim's LEADER
-* U+I to BACKSLASH aka vim's LEADER
+* E+R to BACKSLASH aka Vim's LEADER
+* U+I to BACKSLASH aka Vim's LEADER
 * W+F to CONTROL\_L + OPTION\_L
 * J+O to CONTROL\_R + OPTION\_R
 * Q+F to CONTROL\_L + SHIFT\_L
