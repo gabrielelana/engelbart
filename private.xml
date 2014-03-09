@@ -30,24 +30,6 @@
       <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::I, KeyCode::ESCAPE</autogen>
     </item>
     <item>
-      <name>MINUS</name>
-      <appendix>Simultaneous keys presses to MINUS</appendix>
-      <appendix>(D+C to MINUS)</appendix>
-      <appendix>(K+M to MINUS)</appendix>
-      <identifier>remap.home_row_to_MINUS</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::C, KeyCode::MINUS</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::K, KeyCode::M, KeyCode::MINUS</autogen>
-    </item>
-    <item>
-      <name>EQUAL</name>
-      <appendix>Simultaneous keys presses to EQUAL</appendix>
-      <appendix>(D+V to EQUAL)</appendix>
-      <appendix>(K+N to EQUAL)</appendix>
-      <identifier>remap.home_row_to_EQUAL</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::V, KeyCode::EQUAL</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::K, KeyCode::N, KeyCode::EQUAL</autogen>
-    </item>
-    <item>
       <name>META</name>
       <appendix>Simultaneous home keys presses to META. META doesn't exists as KeyCode so we will map those combo to KEYPAD_1 and KEYPAD_2</appendix>
       <appendix>This is designed to work in an XOrg environment (maybe in a virtual machine) where you have xmodmap</appendix>
