@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <root>
+  <symbol_map type="KeyCode" name="NO_BREAK_SPACE" value="242" />
   <item>
     <name>Engelbart</name>
     <!-- HOME ROW -->
@@ -100,12 +101,12 @@
     <!-- BELOW ROW -->
     <item>
       <name>LEADER</name>
-      <appendix>Simultaneous keys presses to Vim LEADER aka 0x000A</appendix>
-      <appendix>(E+R to LEADER)</appendix>
-      <appendix>(U+I to LEADER)</appendix>
+      <appendix>Simultaneous keys presses to Vim LEADER aka NO_BREAK_SPACE</appendix>
+      <appendix>(C+V to LEADER)</appendix>
+      <appendix>(M+COMMA to LEADER)</appendix>
       <identifier>remap.engelbart_leader</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::KEYPAYD_5</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::KEYPAYD_6</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::C, KeyCode::V, KeyCode::NO_BREAK_SPACE</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::COMMA, KeyCode::NO_BREAK_SPACE</autogen>
     </item>
   </item>
 </root>
