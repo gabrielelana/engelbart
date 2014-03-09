@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <root>
-  <symbol_map type="KeyCode" name="NO_BREAK_SPACE" value="242" />
   <item>
     <name>Engelbart</name>
     <!-- HOME ROW -->
@@ -105,8 +104,8 @@
       <appendix>(C+V to LEADER)</appendix>
       <appendix>(M+COMMA to LEADER)</appendix>
       <identifier>remap.engelbart_leader</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::C, KeyCode::V, KeyCode::NO_BREAK_SPACE</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::COMMA, KeyCode::NO_BREAK_SPACE</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::C, KeyCode::V, KeyCode::KEYPAD_5</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::COMMA, KeyCode::KEYPAD_6</autogen>
     </item>
   </item>
 </root>
