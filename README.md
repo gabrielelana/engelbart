@@ -1,5 +1,4 @@
 # What is this?
-
 This is a customized configuration for [KeyRemap4MacBook](https://pqrs.org/macosx/keyremap4macbook/) to make a keyboard home row to behave like Douglas Engelbart's [chord](http://en.wikipedia.org/wiki/Chorded_keyboard) device but only for "difficult to reach but very useful" keys
 
 At least it's started this way... Later I started to use also the row above and below the home row, all keys far more reachable than the ones they replace
@@ -8,14 +7,12 @@ At least it's started this way... Later I started to use also the row above and 
 
 
 # Why?
-
 * My development environment is made of Vim, Zsh, Tmux and i3 (a tiled window manager), let's say that I *need* a lot of key bindings, avoiding clashes with _"only"_ two modifiers (CONTROL and ALT) is not easy
 * I'm not getting younger, twisting my hand and my wrist all day long to reach those modifier keys was causing me some pain
 * Being able to stay more in the home row is the ultimate keyboard efficiency goal
 
 
 # How it works?
-
 When you simultaneously press two keys they will be mapped to another (convenient) key. All the mappings are symmetric (this resolves another issue that many keyboards have)
 
 * `D+F` to `CONTROL_L`
@@ -51,7 +48,6 @@ I mapped the Vim's Leader to some strage character that I could never type with 
 
 
 # How to use it
-
 * Install KeyRemap4MacBook
 * Go to "Preferences" > "Misc & Uninstall" > "Open private.xml"
 * Replace the default private.xml file with the one you find in this repository
@@ -63,5 +59,4 @@ I mapped the Vim's Leader to some strage character that I could never type with 
 
 
 # Last tip
-
 With [PCKeyboardHack](https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en) I've remapped my `CapsLock` to `Fn` key, so that I can have yet another (sort of) modifier key in my home row! What I do with `Fn`? With KeyRemap4MacBook I've remapped Fn+{H,J,K,L} to... I'll let you guess what :-)
