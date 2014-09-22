@@ -34,7 +34,7 @@ When you simultaneously press two keys they will be mapped to another (convenien
 * `Z+V` to `CONTROL_L+OPTION_L+SHIFT_L`
 * `M+/` to `CONTROL_R+OPTION_R+SHIFT_R`
 
-Now, this is already something, but I wanted to go beyond, towards the mythical [Space Cadet Keyboard](http://en.wikipedia.org/wiki/Space-cadet_keyboard), I wanted to have all those modifier keys... Unfortunately Karabiner doesn't support those key codes... Fortunately inside a Linux VM I can (with xmodmap) remap some strange/unused keys into those key codes... There we go
+Now, this is already something, but I wanted to go beyond, towards the mythical [Space Cadet Keyboard](http://en.wikipedia.org/wiki/Space-cadet_keyboard), I wanted to have all those modifier keys... Unfortunately Karabiner doesn't support those key codes... Fortunately inside a Linux VM I can (with xmodmap) remap some strange/unused keys into those key codes... Here we go
 * `S+F` to `KEYPAD_1` and then via xmodmap to `META_L`
 * `J+L` to `KEYPAD_2` and then via xmodmap to `META_R`
 * `A+F` to `KEYPAD_3` and then via xmodmap to `SUPER_L`
