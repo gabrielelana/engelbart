@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Engelbart for Emacs</name>
+
+    <!-- MODIFIERS -->
+
+    <item>
+      <name>CONTROL</name>
+      <appendix>D+F to CONTROL_L</appendix>
+      <appendix>J+K to CONTROL_R</appendix>
+      <identifier>remap.efe.control</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::F, KeyCode::CONTROL_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::K, KeyCode::CONTROL_R</autogen>
+    </item>
+    <item>
+      <name>META</name>
+      <appendix>S+D to META_L</appendix>
+      <appendix>K+L to META_R</appendix>
+      <identifier>remap.efe.meta</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::D, KeyCode::OPTION_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::K, KeyCode::L, KeyCode::OPTION_R</autogen>
+    </item>
+    <item>
+      <name>HYPER</name>
+      <appendix>S+F to KEYPAD_1 and then (with xmodmap) to HYPER_L</appendix>
+      <appendix>J+L to KEYPAD_2 and then (with xmodmap) to HYPER_R</appendix>
+      <identifier>remap.efe.hyper</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::F, KeyCode::KEYPAD_1</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::L, KeyCode::KEYPAD_2</autogen>
+    </item>
+    <item>
+      <name>SUPER</name>
+      <appendix>A+F to KEYPAD_3 and then (with xmodmap) to SUPER_L</appendix>
+      <appendix>J+; to KEYPAD_4 and then (with xmodmap) to SUPER_R</appendix>
+      <identifier>remap.efe.super</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::A, KeyCode::F, KeyCode::KEYPAD_3</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::SEMICOLON, KeyCode::KEYPAD_4</autogen>
+    </item>
+    <item>
+      <name>SHIFT</name>
+      <appendix>S+G to SHIFT_L</appendix>
+      <appendix>H+L to SHIFT_R</appendix>
+      <identifier>remap.efe.shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::G, KeyCode::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::H, KeyCode::L, KeyCode::SHIFT_R</autogen>
+    </item>
+
+    <!-- CONTROL MODIFIERS -->
+
+    <item>
+      <name>CONTROL+META</name>
+      <appendix>E+F to CONTROL_L+META_L</appendix>
+      <appendix>J+I to CONTROL_R+META_R</appendix>
+      <identifier>remap.efe.control_meta</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::F, KeyCode::OPTION_L, ModifierFlag::CONTROL_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::I, KeyCode::OPTION_R, ModifierFlag::CONTROL_R</autogen>
+    </item>
+    <item>
+      <name>CONTROL+HYPER</name>
+      <appendix>W+F to CONTROL_L+HYPER_L</appendix>
+      <appendix>J+O to CONTROL_R+HYPER_R</appendix>
+      <identifier>remap.efe.control_hyper</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::F, KeyCode::KEYPAD_1, ModifierFlag::CONTROL_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::O, KeyCode::KEYPAD_2, ModifierFlag::CONTROL_R</autogen>
+    </item>
+    <item>
+      <name>CONTROL+SUPER</name>
+      <appendix>Q+F to CONTROL_L+SUPER_L</appendix>
+      <appendix>J+P to CONTROL_R+SUPER_R</appendix>
+      <identifier>remap.efe.control_super</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::Q, KeyCode::F, KeyCode::KEYPAD_3, ModifierFlag::CONTROL_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::P, KeyCode::KEYPAD_4, ModifierFlag::CONTROL_R</autogen>
+    </item>
+
+    <!-- SHIFT MODIFIERS -->
+
+    <item>
+      <name>CONTROL+SHIFT</name>
+      <appendix>C+V to CONTROL_L+SHIFT_L</appendix>
+      <appendix>M+, to CONTROL_R+SHIFT_R</appendix>
+      <identifier>remap.efe.control_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::C, KeyCode::V, KeyCode::CONTROL_L, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::COMMA, KeyCode::CONTROL_R, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>META+SHIFT</name>
+      <appendix>X+C to META_L+SHIFT_L</appendix>
+      <appendix>,+. to META_R+SHIFT_R</appendix>
+      <identifier>remap.efe.meta_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::X, KeyCode::C, KeyCode::OPTION_L, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::COMMA, KeyCode::DOT, KeyCode::OPTION_R, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>HYPER+SHIFT</name>
+      <appendix>X+V to HYPER_L+SHIFT_L</appendix>
+      <appendix>M+. to HYPER_R+SHIFT_R</appendix>
+      <identifier>remap.efe.hyper_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::X, KeyCode::V, KeyCode::KEYPAD_1, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::DOT, KeyCode::KEYPAD_2, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>SUPER+SHIFT</name>
+      <appendix>Z+V to SUPER_L+SHIFT_L</appendix>
+      <appendix>M+/ to SUPER_R+SHIFT_R</appendix>
+      <identifier>remap.efe.super_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::Z, KeyCode::V, KeyCode::KEYPAD_3, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::SLASH, KeyCode::KEYPAD_4, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>CONTROL+META+SHIFT</name>
+      <appendix>D+V to CONTROL_L+META_L+SHIFT_L</appendix>
+      <appendix>N+K to CONTROL_R+META_R+SHIFT_R</appendix>
+      <identifier>remap.efe.control_meta_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::V, KeyCode::CONTROL_L, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::N, KeyCode::K, KeyCode::CONTROL_R, ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R</autogen>
+    </item>
+
+    <!-- HOT -->
+
+    <item>
+      <name>DELETE</name>
+      <appendix>E+R to DELETE</appendix>
+      <appendix>U+I to DELETE</appendix>
+      <identifier>remap.efe.delete</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::DELETE</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::DELETE</autogen>
+    </item>
+    <item>
+      <name>TAB</name>
+      <appendix>W+R to TAB</appendix>
+      <appendix>U+O to TAB</appendix>
+      <identifier>remap.efe.tab</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::R, KeyCode::TAB</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::O, KeyCode::TAB</autogen>
+    </item>
+
+  </item>
+</root>
