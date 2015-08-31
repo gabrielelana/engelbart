@@ -17,8 +17,8 @@ When you simultaneously press two keys they will be mapped to another (convenien
 
 * `D+F` to `CONTROL_L`
 * `J+K` to `CONTROL_R`
-* `S+D` to `OPTION_L` (aka `ALT_L` in Linux)
-* `K+L` to `OPTION_R` (aka `ALT_R` in Linux)
+* `S+D` to `OPTION_L` (aka `META_L` in Linux)
+* `K+L` to `OPTION_R` (aka `META_R` in Linux)
 * `E+F` to `ESCAPE`
 * `J+I` to `ESCAPE`
 * `W+F` to `DELETE`
@@ -34,23 +34,23 @@ When you simultaneously press two keys they will be mapped to another (convenien
 * `Z+V` to `CONTROL_L+OPTION_L+SHIFT_L`
 * `M+/` to `CONTROL_R+OPTION_R+SHIFT_R`
 
-Now, this is already something, but I wanted to go beyond, towards the mythical [Space Cadet Keyboard](http://en.wikipedia.org/wiki/Space-cadet_keyboard), I wanted to have all those modifier keys... Unfortunately Karabiner doesn't support those key codes... Fortunately inside a Linux VM I can (with xmodmap) remap some strange/unused keys into those key codes... Here we go
-* `S+F` to `KEYPAD_1` and then via xmodmap to `META_L`
-* `J+L` to `KEYPAD_2` and then via xmodmap to `META_R`
+Now, this is already something, but I wanted to go beyond, towards the mythical [Space Cadet Keyboard](http://en.wikipedia.org/wiki/Space-cadet_keyboard), I wanted to have all those modifier keys... Unfortunately Karabiner doesn't support those key codes... Fortunately inside a Linux VM I can (with xmodmap) remap some strange/unused keys into those key codes... There we go
+* `S+F` to `KEYPAD_1` and then via xmodmap to `HYPER_L`
+* `J+L` to `KEYPAD_2` and then via xmodmap to `HYPER_R`
 * `A+F` to `KEYPAD_3` and then via xmodmap to `SUPER_L`
 * `J+;` to `KEYPAD_4` and then via xmodmap to `SUPER_R`
 
-In the future I will consider to add also HYPER_L and HYPER_R but for now I'm happy like that. My Vim's LEADER works the same way
+My Vim's LEADER works the same way
 * `C+V` to `KEYPAD_5` and the via xmodmap to `NO_BREAK_SPACE`
 * `M+;` to `KEYPAD_6` and the via xmodmap to `NO_BREAK_SPACE`
 
-I've mapped the Vim's Leader to some strage character that I could never type with a direct key of my keyboard so that I could have leader mappings in insert mode, but that's another story, you could skip this part or you could email me if you wanna know more :smile:
+I've mapped the Vim's Leader to some strange character that I could never type with a direct key of my keyboard so that I could have leader mappings in insert mode, but that's another story, you could skip this part or you could email me if you wanna know more :smile:
 
 
 # How to use it
 * Install Karabiner
 * Go to "Preferences" > "Misc & Uninstall" > "Open private.xml"
-* Replace the default private.xml file with the one you find in this repository
+* Replace the default `private.xml` file with `engelbart.xml`
 * Go to "Change Key"
 * Hit "Reload XML"
 * A section called "Engelbart" should appear
