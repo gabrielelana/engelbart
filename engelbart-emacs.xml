@@ -31,11 +31,11 @@
     </item>
     <item>
       <name>SUPER</name>
-      <appendix>S+G to KEYPAD_3 and then (with xmodmap) to SUPER_L</appendix>
-      <appendix>H+L to KEYPAD_4 and then (with xmodmap) to SUPER_R</appendix>
+      <appendix>A+F to KEYPAD_3 and then (with xmodmap) to SUPER_L</appendix>
+      <appendix>J+; to KEYPAD_4 and then (with xmodmap) to SUPER_R</appendix>
       <identifier>remap.efe.super</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::S, KeyCode::G, KeyCode::KEYPAD_3</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::H, KeyCode::L, KeyCode::KEYPAD_4</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::A, KeyCode::F, KeyCode::KEYPAD_3</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::SEMICOLON, KeyCode::KEYPAD_4</autogen>
     </item>
 
     <!-- CONTROL+MODIFIER -->
@@ -55,6 +55,14 @@
       <identifier>remap.efe.control_hyper</identifier>
       <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::F, KeyCode::KEYPAD_1, ModifierFlag::CONTROL_L</autogen>
       <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::O, KeyCode::KEYPAD_2, ModifierFlag::CONTROL_R</autogen>
+    </item>
+    <item>
+      <name>CONTROL+SUPER</name>
+      <appendix>Q+F to CONTROL_L+SUPER_L</appendix>
+      <appendix>J+P to CONTROL_R+SUPER_R</appendix>
+      <identifier>remap.efe.control_super</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::Q, KeyCode::F, KeyCode::KEYPAD_3, ModifierFlag::CONTROL_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::J, KeyCode::P, KeyCode::KEYPAD_4, ModifierFlag::CONTROL_R</autogen>
     </item>
 
     <!-- MODIFIERS+SHIFT -->
@@ -84,31 +92,47 @@
       <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::DOT, KeyCode::KEYPAD_2, ModifierFlag::SHIFT_R</autogen>
     </item>
     <item>
+      <name>SUPER+SHIFT</name>
+      <appendix>Z+V to SUPER_L+SHIFT_L</appendix>
+      <appendix>M+/ to SUPER_R+SHIFT_R</appendix>
+      <identifier>remap.efe.super_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::Z, KeyCode::V, KeyCode::KEYPAD_3, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::SLASH, KeyCode::KEYPAD_4, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
       <name>CONTROL+META+SHIFT</name>
-      <appendix>D+C to CONTROL_L+META_L+SHIFT_L</appendix>
-      <appendix>M+K to CONTROL_R+META_R+SHIFT_R</appendix>
+      <appendix>D+V to CONTROL_L+META_L+SHIFT_L</appendix>
+      <appendix>N+K to CONTROL_R+META_R+SHIFT_R</appendix>
       <identifier>remap.efe.control_meta_shift</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::C, KeyCode::CONTROL_L, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::M, KeyCode::K, KeyCode::CONTROL_R, ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::D, KeyCode::V, KeyCode::CONTROL_L, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::N, KeyCode::K, KeyCode::CONTROL_R, ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R</autogen>
     </item>
 
     <!-- HOT -->
 
     <item>
-      <name>SHIFT</name>
-      <appendix>E+R to SHIFT</appendix>
-      <appendix>U+I to SHIFT</appendix>
-      <identifier>remap.efe.shift</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::SHIFT_L</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::SHIFT_R</autogen>
+      <name>ESCAPE</name> <!-- SOON TO BE SHIFT -->
+      <appendix>E+R to ESCAPE</appendix>
+      <appendix>U+I to ESCAPE</appendix>
+      <identifier>remap.efe.escape</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::ESCAPE</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::ESCAPE</autogen>
     </item>
     <item>
       <name>DELETE</name>
-      <appendix>W+E to DELETE</appendix>
-      <appendix>I+O to DELETE</appendix>
+      <appendix>W+R to DELETE</appendix>
+      <appendix>U+O to DELETE</appendix>
       <identifier>remap.efe.delete</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::E, KeyCode::DELETE</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::I, KeyCode::O, KeyCode::DELETE</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::R, KeyCode::DELETE</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::O, KeyCode::DELETE</autogen>
+    </item>
+    <item>
+      <name>LEADER</name> <!-- SOON TO BE ESCAPE -->
+      <appendix>W+E to LEADER</appendix>
+      <appendix>I+O to LEADER</appendix>
+      <identifier>remap.efe.leader</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::E, KeyCode::KEYPAD_5</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::I, KeyCode::O, KeyCode::KEYPAD_6</autogen>
     </item>
 
   </item>
