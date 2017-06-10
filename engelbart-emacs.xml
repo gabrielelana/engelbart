@@ -111,12 +111,12 @@
     <!-- HOT -->
 
     <item>
-      <name>ESCAPE</name> <!-- SOON TO BE SHIFT -->
-      <appendix>E+R to ESCAPE</appendix>
-      <appendix>U+I to ESCAPE</appendix>
-      <identifier>remap.efe.escape</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::ESCAPE</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::ESCAPE</autogen>
+      <name>SHIFT</name>
+      <appendix>E+R to SHIFT</appendix>
+      <appendix>U+I to SHIFT</appendix>
+      <identifier>remap.efe.shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::R, KeyCode::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::I, KeyCode::SHIFT_R</autogen>
     </item>
     <item>
       <name>DELETE</name>
@@ -127,13 +127,12 @@
       <autogen>__SimultaneousKeyPresses__ KeyCode::U, KeyCode::O, KeyCode::DELETE</autogen>
     </item>
     <item>
-      <name>LEADER</name> <!-- SOON TO BE ESCAPE -->
-      <appendix>W+E to LEADER</appendix>
-      <appendix>I+O to LEADER</appendix>
-      <identifier>remap.efe.leader</identifier>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::E, KeyCode::KEYPAD_5</autogen>
-      <autogen>__SimultaneousKeyPresses__ KeyCode::I, KeyCode::O, KeyCode::KEYPAD_6</autogen>
+      <name>ESCAPE</name>
+      <appendix>W+E to ESCAPE</appendix>
+      <appendix>I+O to ESCAPE</appendix>
+      <identifier>remap.efe.escape</identifier>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::E, KeyCode::ESCAPE</autogen>
+      <autogen>__SimultaneousKeyPresses__ KeyCode::I, KeyCode::O, KeyCode::ESCAPE</autogen>
     </item>
-
   </item>
 </root>
