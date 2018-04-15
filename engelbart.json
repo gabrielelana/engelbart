@@ -14,385 +14,385 @@
                     "basic.to_if_held_down_threshold_milliseconds": 500
                 },
                 "rules": [
-   							  {
-									  "description": "Engelbart",
-                    "manipulators": [
-										  {
-							 		      "description": "D+F to CONTROL_L",
-						 			      "from": {
-									        "modifiers": {"optional": ["any"]},
-			 						        "simultaneous": [{"key_code": "d"},{"key_code": "f"}]
-									      },
-								        "to": [
-								          {"key_code": "left_control"}
-								        ],
-								        "type": "basic"
-								      },
-									    {
-								 		    "description": "J+K to CONTROL_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "j"},{"key_code": "k"}]
-										    },
-									      "to": [
-									        {"key_code": "right_control"}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "S+D to META_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "s"},{"key_code": "d"}]
-										    },
-									      "to": [
-									        {"key_code": "left_option"}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "K+L to META_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "k"},{"key_code": "l"}]
-										    },
-									      "to": [
-									        {"key_code": "right_option"}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "S+F to KEYPAD_1 and then (with xmodmap) to HYPER_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "s"},{"key_code": "f"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_1"}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "J+L to KEYPAD_2 and then (with xmodmap) to HYPER_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "j"},{"key_code": "l"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_2"}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "A+F to KEYPAD_3 and then (with xmodmap) to SUPER_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "a"},{"key_code": "f"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_3"}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "J+; to KEYPAD_4 and then (with xmodmap) to SUPER_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "j"},{"key_code": "semicolon"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_4"}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "E+F to CONTROL_L+META_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "e"},{"key_code": "f"}]
-										    },
-									      "to": [
-									        {"key_code": "left_option", "modifiers": ["left_control"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "J+I to CONTROL_R+META_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "j"},{"key_code": "i"}]
-										    },
-									      "to": [
-									        {"key_code": "right_option", "modifiers": ["right_control"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "W+F to CONTROL_L+HYPER_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "w"},{"key_code": "f"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_1", "modifiers": ["left_control"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "J+O to CONTROL_R+HYPER_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "j"},{"key_code": "o"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_2", "modifiers": ["right_control"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "Q+F to CONTROL_L+SUPER_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "q"},{"key_code": "f"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_3", "modifiers": ["left_control"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "J+P to CONTROL_R+SUPER_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "j"},{"key_code": "p"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_4", "modifiers": ["right_control"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "C+V to CONTROL_L+SHIFT_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "c"},{"key_code": "v"}]
-										    },
-									      "to": [
-									        {"key_code": "left_control", "modifiers": ["left_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "M+, to CONTROL_R+SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "m"},{"key_code": "comma"}]
-										    },
-									      "to": [
-									        {"key_code": "right_control", "modifiers": ["right_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "X+C to META_L+SHIFT_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "x"},{"key_code": "c"}]
-										    },
-									      "to": [
-									        {"key_code": "left_option", "modifiers": ["left_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": ",+. to META_R+SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "comma"},{"key_code": "period"}]
-										    },
-									      "to": [
-									        {"key_code": "right_option", "modifiers": ["right_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "X+V to HYPER_L+SHIFT_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "x"},{"key_code": "v"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_1", "modifiers": ["left_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "M+. to HYPER_R+SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "m"},{"key_code": "period"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_2", "modifiers": ["right_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "Z+V to SUPER_L+SHIFT_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "z"},{"key_code": "v"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_3", "modifiers": ["left_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "M+/ to SUPER_R+SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "m"},{"key_code": "slash"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_4", "modifiers": ["right_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "D+V to META_L+CONTROL_L+SHIFT_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "d"},{"key_code": "v"}]
-										    },
-									      "to": [
-									        {"key_code": "left_option", "modifiers": ["left_control", "left_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "N+K to META_R+CONTROL_R+SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "n"},{"key_code": "k"}]
-										    },
-									      "to": [
-									        {"key_code": "right_option", "modifiers": ["right_control", "right_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "S+V to HYPER_L+CONTROL_L+SHIFT_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "s"},{"key_code": "v"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_1", "modifiers": ["left_control", "left_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "N+L to HYPER_R+CONTROL_R+SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "n"},{"key_code": "l"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_2", "modifiers": ["right_control", "right_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "A+V to SUPER_L+CONTROL_L+SHIFT_L",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "a"},{"key_code": "v"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_3", "modifiers": ["left_control", "left_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-											{
-								 		    "description": "N+; to HYPER_R+CONTROL_R+SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "n"},{"key_code": "semicolon"}]
-										    },
-									      "to": [
-									        {"key_code": "keypad_4", "modifiers": ["right_control", "right_shift"]}
-									      ],
-									      "type": "basic"
-									    },
-										  {
-							 		      "description": "E+R to SHIFT_L",
-						 			      "from": {
-									        "modifiers": {"optional": ["any"]},
-			 						        "simultaneous": [{"key_code": "e"},{"key_code": "r"}]
-									      },
-								        "to": [
-								          {"key_code": "left_shift"}
-								        ],
-								        "type": "basic"
-								      },
-									    {
-								 		    "description": "U+I to SHIFT_R",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "u"},{"key_code": "i"}]
-										    },
-									      "to": [
-									        {"key_code": "right_shift"}
-									      ],
-									      "type": "basic"
-									    },
-										  {
-							 		      "description": "W+R to DELETE",
-						 			      "from": {
-									        "modifiers": {"optional": ["any"]},
-			 						        "simultaneous": [{"key_code": "w"},{"key_code": "r"}]
-									      },
-								        "to": [
-								          {"key_code": "delete_or_backspace"}
-								        ],
-								        "type": "basic"
-								      },
-									    {
-								 		    "description": "U+O to DELETE",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "u"},{"key_code": "o"}]
-										    },
-									      "to": [
-									        {"key_code": "delete_or_backspace"}
-									      ],
-									      "type": "basic"
-									    },
-										  {
-							 		      "description": "W+E to ESCAPE",
-						 			      "from": {
-									        "modifiers": {"optional": ["any"]},
-			 						        "simultaneous": [{"key_code": "w"},{"key_code": "e"}]
-									      },
-								        "to": [
-								          {"key_code": "escape"}
-								        ],
-								        "type": "basic"
-								      },
-									    {
-								 		    "description": "I+O to ESCAPE",
-							 			    "from": {
-										      "modifiers": {"optional": ["any"]},
-				 						      "simultaneous": [{"key_code": "i"},{"key_code": "o"}]
-										    },
-									      "to": [
-									        {"key_code": "escape"}
-									      ],
-									      "type": "basic"
-									    }				     
-                    ]
-                  }
+   		    {
+			"description": "Engelbart",
+                        "manipulators": [
+			    {
+				"description": "D+F to CONTROL_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+			 	    "simultaneous": [{"key_code": "d"},{"key_code": "f"}]
+				},
+				"to": [
+				    {"key_code": "left_control"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "J+K to CONTROL_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "j"},{"key_code": "k"}]
+				},
+				"to": [
+				    {"key_code": "right_control"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "S+D to META_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "s"},{"key_code": "d"}]
+				},
+				"to": [
+				    {"key_code": "left_option"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "K+L to META_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "k"},{"key_code": "l"}]
+				},
+				"to": [
+				    {"key_code": "right_option"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "S+F to KEYPAD_1 and then (with xmodmap) to HYPER_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "s"},{"key_code": "f"}]
+				},
+				"to": [
+				    {"key_code": "keypad_1"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "J+L to KEYPAD_2 and then (with xmodmap) to HYPER_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "j"},{"key_code": "l"}]
+				},
+				"to": [
+				    {"key_code": "keypad_2"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "A+F to KEYPAD_3 and then (with xmodmap) to SUPER_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "a"},{"key_code": "f"}]
+				},
+				"to": [
+				    {"key_code": "keypad_3"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "J+; to KEYPAD_4 and then (with xmodmap) to SUPER_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "j"},{"key_code": "semicolon"}]
+				},
+				"to": [
+				    {"key_code": "keypad_4"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "E+F to CONTROL_L+META_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "e"},{"key_code": "f"}]
+				},
+				"to": [
+				    {"key_code": "left_option", "modifiers": ["left_control"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "J+I to CONTROL_R+META_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "j"},{"key_code": "i"}]
+				},
+				"to": [
+				    {"key_code": "right_option", "modifiers": ["right_control"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "W+F to CONTROL_L+HYPER_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "w"},{"key_code": "f"}]
+				},
+				"to": [
+				    {"key_code": "keypad_1", "modifiers": ["left_control"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "J+O to CONTROL_R+HYPER_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "j"},{"key_code": "o"}]
+				},
+				"to": [
+				    {"key_code": "keypad_2", "modifiers": ["right_control"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "Q+F to CONTROL_L+SUPER_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "q"},{"key_code": "f"}]
+				},
+				"to": [
+				    {"key_code": "keypad_3", "modifiers": ["left_control"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "J+P to CONTROL_R+SUPER_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "j"},{"key_code": "p"}]
+				},
+				"to": [
+				    {"key_code": "keypad_4", "modifiers": ["right_control"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "C+V to CONTROL_L+SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "c"},{"key_code": "v"}]
+				},
+				"to": [
+				    {"key_code": "left_control", "modifiers": ["left_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "M+, to CONTROL_R+SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "m"},{"key_code": "comma"}]
+				},
+				"to": [
+				    {"key_code": "right_control", "modifiers": ["right_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "X+C to META_L+SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "x"},{"key_code": "c"}]
+				},
+				"to": [
+				    {"key_code": "left_option", "modifiers": ["left_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": ",+. to META_R+SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "comma"},{"key_code": "period"}]
+				},
+				"to": [
+				    {"key_code": "right_option", "modifiers": ["right_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "X+V to HYPER_L+SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "x"},{"key_code": "v"}]
+				},
+				"to": [
+				    {"key_code": "keypad_1", "modifiers": ["left_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "M+. to HYPER_R+SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "m"},{"key_code": "period"}]
+				},
+				"to": [
+				    {"key_code": "keypad_2", "modifiers": ["right_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "Z+V to SUPER_L+SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "z"},{"key_code": "v"}]
+				},
+				"to": [
+				    {"key_code": "keypad_3", "modifiers": ["left_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "M+/ to SUPER_R+SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "m"},{"key_code": "slash"}]
+				},
+				"to": [
+				    {"key_code": "keypad_4", "modifiers": ["right_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "D+V to META_L+CONTROL_L+SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "d"},{"key_code": "v"}]
+				},
+				"to": [
+				    {"key_code": "left_option", "modifiers": ["left_control", "left_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "N+K to META_R+CONTROL_R+SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "n"},{"key_code": "k"}]
+				},
+				"to": [
+				    {"key_code": "right_option", "modifiers": ["right_control", "right_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "S+V to HYPER_L+CONTROL_L+SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "s"},{"key_code": "v"}]
+				},
+				"to": [
+				    {"key_code": "keypad_1", "modifiers": ["left_control", "left_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "N+L to HYPER_R+CONTROL_R+SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "n"},{"key_code": "l"}]
+				},
+				"to": [
+				    {"key_code": "keypad_2", "modifiers": ["right_control", "right_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "A+V to SUPER_L+CONTROL_L+SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "a"},{"key_code": "v"}]
+				},
+				"to": [
+				    {"key_code": "keypad_3", "modifiers": ["left_control", "left_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "N+; to HYPER_R+CONTROL_R+SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "n"},{"key_code": "semicolon"}]
+				},
+				"to": [
+				    {"key_code": "keypad_4", "modifiers": ["right_control", "right_shift"]}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "E+R to SHIFT_L",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+			 	    "simultaneous": [{"key_code": "e"},{"key_code": "r"}]
+				},
+				"to": [
+				    {"key_code": "left_shift"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "U+I to SHIFT_R",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "u"},{"key_code": "i"}]
+				},
+				"to": [
+				    {"key_code": "right_shift"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "W+R to DELETE",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+			 	    "simultaneous": [{"key_code": "w"},{"key_code": "r"}]
+				},
+				"to": [
+				    {"key_code": "delete_or_backspace"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "U+O to DELETE",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "u"},{"key_code": "o"}]
+				},
+				"to": [
+				    {"key_code": "delete_or_backspace"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "W+E to ESCAPE",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+			 	    "simultaneous": [{"key_code": "w"},{"key_code": "e"}]
+				},
+				"to": [
+				    {"key_code": "escape"}
+				],
+				"type": "basic"
+			    },
+			    {
+				"description": "I+O to ESCAPE",
+				"from": {
+				    "modifiers": {"optional": ["any"]},
+				    "simultaneous": [{"key_code": "i"},{"key_code": "o"}]
+				},
+				"to": [
+				    {"key_code": "escape"}
+				],
+				"type": "basic"
+			    }
+                        ]
+                    }
                 ]
             },
             "devices": [],
